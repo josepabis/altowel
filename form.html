@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/form.css">
+    <title>Estilizando formularios</title>
+</head>
+<body>
+
+    <header>
+        <div class="cabeca">
+        <p>New York Girata</p>
+        </div>
+    </header>
+
+    <div class="baskara">
+        <form action="index.html" method="POST">
+            <fieldset>
+
+                <legend>Cadastro</legend>
+
+                <p>
+                    <label for="nome">Digite seu nome</label>
+                    <input type="text" id="idnome" placeholder="Digite seu nome">
+                </p>
+                
+                <p>
+                    <label for="idmail"> Email: </label>
+                    <input type="text" id="idmail" size="40" placeholder="email.exemplo@gmail.com"/>
+                </p>
+
+                <p>
+                    <label for="idsenha"> Senha: </label>
+                    <input type="password" id="idsenha" maxlength="15" placeholder="Digite sua senha"> 
+                </p>
+
+                <p>
+                    <label for="idfone"> Telefone: </label>
+                    <input type="text" id="idfone" size="15" maxlength="20" placeholder="Digite seu número"/>
+                </p>
+
+                <p>
+                    <label for="idend"> Endereço: </label>
+                    <input type="text" id="idend" size="60" placeholder="Digite seu endereço"/>
+                </p>
+
+                <p>
+                    <label for="iddata"> Data de nascimento </label>
+                    <input type="date" id="iddata"/>
+                </p>
+
+                <p>
+                    <input type="submit" id="idenviar" value="enviar"/>
+                    <input type="reset" id="idlimpar" value="limpar"/>
+                </p>
+
+
+            </fieldset>
+        </form>
+    </div>
+
+    
+    <footer>
+        <p>Octavius©</p>
+    </footer>
+
+</body>
+</html>
